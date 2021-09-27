@@ -1,0 +1,23 @@
+OSPF for router 0
+Router(config)#router ospf 1
+Router(config-router)#net
+Router(config-router)#network 192.168.1.0 0.0.0.255 area 0
+Router(config-router)#network 192.168.2.0 0.0.0.255 area 0
+
+OSPF for router 1
+Router(config)#router OSpf 1
+Router(config-router)#net
+Router(config-router)#network 192.168.2.0 0.0.0.255 area 0
+Router(config-router)#network 192.168.3.0 0.0.0.255 area 0
+
+
+config check
+Router#show ip ospf neighbor
+Router#show ip ospf database
+
+
+computer
+ping
+tracert destn ip address
+eg.
+tracert 192.168.3.2

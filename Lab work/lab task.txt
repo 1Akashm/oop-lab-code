@@ -1,0 +1,9 @@
+Let`s warm-up
+1.WAP to find the fibonacci series upto user request.
+2. WAP to find the inputed number is pallindrome or not.
+3. WAP to generate the following structure:
+	a. 1 2 3 4 5
+	   1 2 3 4
+	   1 2 3
+	   1 2
+   	   1
